@@ -35,7 +35,7 @@ class Header extends Component {
                                 </NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="https://github.com/reactstrap/reactstrap">
+                                <NavLink href="https://github.com/devlettum/BasicCvMaker" target="_blank">
                                     GitHub
                                 </NavLink>
                             </NavItem>
