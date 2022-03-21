@@ -11,8 +11,8 @@ function Output(props) {
         <div>Email : {props.InputInfos.email}</div>
         <div>Job : {props.InputInfos.job}</div>
         <div>Graduated : {props.InputInfos.graduated}</div>
-        <div>Experience : {props.InputInfos.graduated}</div>
-        <div>Linkedin : {props.InputInfos.graduated}</div>
+        <div>Experience : {props.InputInfos.experience}</div>
+        <div>Linkedin : {props.InputInfos.linkedin}</div>
       </div>
     );
 
