@@ -5,6 +5,7 @@ import { useState } from "react";
 import Output from "./components/output";
 
 function App() {
+  
   const inputInfos = {
     name: "",
     surname: "",
@@ -16,22 +17,22 @@ function App() {
     graduated: "",
     experience: "",
     linkedin: "",
+  
   };
-
+  
   const [states,setStates]=useState(inputInfos);
 
   const getInputs = (inputs) =>{
     setStates(inputs);
-    console.log(inputs);
-
+    
   };
 
 
   return (
     <div className="container">
       <Header />
-      <Inputs getInputFunction={getInputs} />
-      <Output InputInfos={{...states}} />
+      <Inputs control={inputInfos.control} getInputFunction={getInputs} />
+      <Output control={inputInfos.control} InputInfos={{...states}} />
     </div>
   );
 }

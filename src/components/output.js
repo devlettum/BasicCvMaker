@@ -1,28 +1,20 @@
-
-
 function Output(props) {
+ 
+    return (
+      <div>
+        <div>Name : {props.InputInfos.name}</div>
+        <div>Surname : {props.InputInfos.surname}</div>
+        <div>Birthday : {props.InputInfos.birthday}</div>
+        <div>Self-Explanation : {props.InputInfos.describe}</div>
+        <div>Phone Number : {props.InputInfos.phone}</div>
+        <div>Email : {props.InputInfos.email}</div>
+        <div>Job : {props.InputInfos.job}</div>
+        <div>Graduated : {props.InputInfos.graduated}</div>
+        <div>Experience : {props.InputInfos.graduated}</div>
+        <div>Linkedin : {props.InputInfos.graduated}</div>
+      </div>
+    );
 
-    console.log(props);
-    console.log(props.InputInfos.surname);
-
-        return (
-            <div>
-            
-                <p>{props.InputInfos.name}</p>
-                <p>{props.InputInfos.surname}</p>
-                <p>{props.InputInfos.birthday}</p>
-                <p>{props.InputInfos.describe}</p>
-                <p>AAA</p>
-                <p>AAA</p>
-                <p>AAA</p>
-                <p>AAA</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto doloremque eos explicabo molestias quis. A asperiores blanditiis cumque deleniti dignissimos dolore ea et eveniet, excepturi fugit id iste nisi veniam.</p>
-                <p>AAAAAAAAAAAAA</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto doloremque eos explicabo molestias quis. A asperiores blanditiis cumque deleniti dignissimos dolore ea et eveniet, excepturi fugit id iste nisi veniam.</p>
-                <p>wlkjklwqjklqwjwq.com</p>
-            </div>
-        );
-    }
-
+}
 
 export default Output;
